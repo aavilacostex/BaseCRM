@@ -1,0 +1,150 @@
+.navbar-custom {
+    background-color: var(--btnHover);
+}
+
+ul > li > a i {
+    color:var(--mainBck) !important;
+}
+
+ul > li > a .user-name {
+    color: var(--mainBck) !important;
+}
+
+body {
+    background-color: var(--bckPagSel);
+}
+
+.navbar-custom-menu .dropdown .nav-link.active.dropdown-toggle:after, .navbar-custom-menu .dropdown .nav-link.dropdown-toggle:after {
+    color:var(--mainBck) !important;
+}
+
+.table .thead-light th {
+    background-color: var(--mainBck);
+}
+
+#datatable-customers tbody tr > td > a > i {
+    color:var(--mainBck) !important;
+}
+
+#datatable-customers tbody tr > td > a {
+    color:var(--btnHover) !important;
+}
+
+.nav.nav-pills {
+    /*background: linear-gradient(14deg, #fbba42 0%, rgba(251, 186, 66, 0.6));*/
+    background: linear-gradient(14deg, #000000 0%, rgba(0, 0, 0, 0.6));
+    color: #ffffff !important;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    border-radius: 0;
+}
+  
+.nav.nav-pills a:hover, .custom-nav-btn:hover {
+    color: var(--mainBck) !important;
+    border-radius: 0;  
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+    background-color: transparent !important;
+    /*border: 1px solid #fddb9b;*/
+}
+
+.nav-pills .nav-item.show .nav-link,
+.nav-pills .nav-link.active {
+  /*cambio aqui*/
+  /*background: linear-gradient(14deg, #506ee4 0%, rgba(80, 110, 228, 0.6));*/
+  background: linear-gradient(14deg, #fbba42 0%, rgba(251, 186, 66, 0.6));
+  color: #ffffff;
+  box-shadow: 0 7px 14px 0 rgba(251, 186, 66, 0.5);
+  border-radius: 0;
+}
+
+a {
+    color: white !important;
+}
+
+.nav-item > .nav-link > i {
+    color: white !important;
+}
+
+.nav-item > .nav-link:hover > i {
+    color: var(--mainBck) !important;
+}
+
+.dropdown-menu > li, .nav-item ul {
+    background-color: #fef6e6 !important;
+}
+
+.dropdown-menu > li:hover {
+    border-bottom:1px;
+    border-color:var(--btnHover);
+}
+
+.dropdown-menu > li > a {
+    color: var(--btnHover) !important;    
+}
+
+.dropdown-menu > li > a:hover {
+    color: var(--mainBck) !important;    
+}
+
+.hideProp {
+    display: none !important;
+}
+
+[data-layout=horizontal] .topbar .brand .logo .logo-lg {
+    height: 30px !important;
+}
+
+.breadcrumb li > a {
+    color: #c88304 !important;
+}
+
+.breadcrumb li > a:hover {
+    text-decoration: underline !important;
+    font-weight: bold;
+}
+
+.danger-bold {
+    font-weight: bold;
+    color: red;
+} 
+
+#navigation1 {
+    position: absolute;
+    /*top: $header-height;*/
+    left: 0;
+    right: 0;
+    display: none;
+    height: auto;
+    max-height: 500px;
+    padding: 8px;
+    overflow: auto;
+    /*background-color: $card-bg;*/
+    z-index: 1000;
+    /*box-shadow: 0px 1px 3px 1.25px rgba($gray-500, 0.3);*/
+}
+
+.brand .navbar-toggle {
+    border: 0;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    display: block !important;
+}
+
+.brand .navbar-toggle .lines {
+    margin: 0 auto !important;   
+}
+
+.brand a {  
+    color: var(--mainBck) !important;
+}
+
+.brand ul {
+    list-style: none !important;
+    padding: 0;
+}
+
+[data-layout=horizontal] .topbar .brand {
+    width: 260px !important;
+}
